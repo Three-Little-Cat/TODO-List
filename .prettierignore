@@ -1,0 +1,13 @@
+lib
+dist
+.local
+/node_modules/**
+
+**/*.md
+
+**/*.svg
+**/*.sh
+
+/public/*
+
+
