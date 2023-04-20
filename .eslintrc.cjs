@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
 	env: {
 		browser: true,
@@ -19,5 +20,7 @@ module.exports = {
 	plugins: ['react', '@typescript-eslint', 'prettier'],
 	// ESLint 預設警告是紅色 (danger) 顯示。
 	// Prettier 預設警告也是紅色 (danger) 顯示，不跟 ESLint 混淆，因此改成黃色 (warning) 顯示。
+
+	// React 17不需要react in scope
 	rules: { 'prettier/prettier': 'warn', 'react/react-in-jsx-scope': 'off' }
 };
