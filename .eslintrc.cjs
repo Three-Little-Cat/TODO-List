@@ -28,10 +28,10 @@ module.exports = {
 		'react',
 		'@typescript-eslint',
 		'react-hooks',
-		'prettier'
-		// 'simple-import-sort',
-		// 'import',
-		// '@wogns3623/better-exhaustive-deps'
+		'prettier',
+		'simple-import-sort',
+		'import',
+		'@wogns3623/better-exhaustive-deps'
 	],
 	/* 继承某些已有的规则 */
 	extends: [
