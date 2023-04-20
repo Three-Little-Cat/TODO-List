@@ -1,6 +1,7 @@
 // @see: https://cz-git.qbenben.com/zh/guide
 /** @type {import('cz-git').CommitizenGitOptions} */
 
+// eslint-disable-next-line no-undef
 module.exports = {
 	ignores: [commit => commit.includes('init')],
 	extends: ['@commitlint/config-conventional'],
